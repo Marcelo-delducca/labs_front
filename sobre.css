@@ -1,0 +1,33 @@
+:root{
+    --cor-base: #333333;
+    --cor-fundo-img: #f2eded ;
+    --cor-borda-img: #ccc;
+}
+
+
+
+body{
+    color: var(--cor-base);
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+h1{
+    background-image: url(../img/sobre-background.jpg) ;
+}
+
+h2{
+    color: var(--cor-base);
+    border-bottom: 2px groove #333333;
+}
+
+figure{
+
+    background-color: var(--cor-fundo-img);
+    border: 1px solid var(--cor-borda-img);
+    text-align: center;
+}
+
+figcaption{
+    font-style: italic;
+}
+
