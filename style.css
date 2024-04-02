@@ -1,5 +1,10 @@
+:root{
+    --cor-base: #333;
+    --cor-menu: #036;
+}
+
 .sacola {
-    background: url(../labs_front/img/sacola.png) no-repeat top right;
+    background: url(img/sacola.png) no-repeat top right;
     font-size: 14px;
     padding-right: 35px;
     text-align: right;
@@ -11,10 +16,10 @@
 }
 
 .menu-opcoes a {
-    color: #003666;
+    color: var(--cor-menu);
 }
 
 body {
-    color: #333333;
+    color: var(--cor-base);
     font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
 }
