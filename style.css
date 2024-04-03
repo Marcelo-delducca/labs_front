@@ -7,8 +7,11 @@
     background: url(img/sacola.png) no-repeat top right;
     font-size: 14px;
     padding-right: 35px;
-    text-align: right;
-    width: 140px;
+    padding-top: 8px;
+    text-align: center;
+    width: 200px;
+    padding-bottom: 25px;
+
 }
 
 .menu-opcoes ul {
@@ -19,7 +22,19 @@
     color: var(--cor-menu);
 }
 
+.menu-opcoes ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
 body {
     color: var(--cor-base);
     font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
 }
+
+.container {
+    margin: 0 auto;
+    width: 940px;
+}
+
+
