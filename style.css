@@ -11,7 +11,15 @@
     text-align: center;
     width: 200px;
     padding-bottom: 25px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 
+.menu-opcoes {
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 .menu-opcoes ul {
@@ -34,7 +42,10 @@ body {
 
 .container {
     margin: 0 auto;
-    width: 940px;
+    width: 90%;
 }
 
+header{
+    position: relative;
+}
 
