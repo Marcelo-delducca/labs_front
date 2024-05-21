@@ -3,8 +3,14 @@
     --cor-menu: #036;
     --cor-menu-lateral: #dcdcdc;
     --cor-menu-lateral-itens: white;
+    --cor-menu-lateral-itens-hover: #007dc6;
+    --cor-menu-lateral-itens-active: #f00;
     --cor-painel-novidades: #f5dcdc;
+    --cor-painel-shadow: #999;
+    --cor-painel-titulo: rgba(0, 0, 0, 0.5);
+    --cor-painel-novidades-grad: #bebef4;
     --cor-panel-mais-vendidos: #dcdcf5;
+    --cor-panel-mais-vendidos-grad: #f4bebe;
 
 }
 
@@ -36,7 +42,7 @@
 }
 
 .menu-opcoes ul li {
-    display: inline-block;
+    display: inline;
     margin-left: 20px;
 }
 
@@ -90,7 +96,7 @@ header {
     vertical-align: middle;
 }
 
-.busca input [type=search] {
+.busca input [type="search"] {
     width: 170px;
 }
 
@@ -178,5 +184,29 @@ margin-left: 25px;
     position: absolute;
     top: 12px;
     right: 0;
+}
+
+.menu-opcoes a:hover {
+    color: var(--cor-menu-lateral-itens-hover);
+}
+
+.menu-opcoes a:active {
+    color: var(--cor-menu-lateral-itens-active);
+}
+
+.menu-departamentos li ul {
+    display: none;
+}
+
+.menu-departamentos li:hover ul {
+    display: block;
+}
+
+.menu-departamentos ul ul li {
+    background-color: var(--cor-menu-lateral);
+}
+
+.menu-departamentos li li a::before {
+    content: '- ';
 }
 
